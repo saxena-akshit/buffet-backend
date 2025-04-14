@@ -1,0 +1,115 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.sqlite3-journal
+
+# Media files (user-uploaded content) - Typically ignored
+media/
+
+# Static files collected by collectstatic - Typically ignored
+staticfiles/
+static_root/
+
+# Virtual Environments
+env/
+venv/
+.env/
+.venv/
+ENV/
+# If your venv is outside project root but named consistently, e.g., ../venv
+# ../venv/
+
+# Secrets and environment variables - VERY IMPORTANT
+.env*
+*.env
+*.local
+secret*.txt
+secret*.json
+secret*.py
+*.key
+
+# Terraform state files
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Sphinx documentation
+docs/_build/
+
+# Editor / IDE directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
