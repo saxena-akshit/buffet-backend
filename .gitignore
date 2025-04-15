@@ -90,6 +90,7 @@ secret*.json
 secret*.py
 *.key
 
+gem-secrets.py
 # Terraform state files
 .terraform/
 *.tfstate
