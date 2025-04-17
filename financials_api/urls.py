@@ -6,6 +6,6 @@ from financials_api.views.rag_view import RAGView
 
 urlpatterns = [
     path('financials/<str:stock_symbol>/', FinancialDataView.as_view(), name='financial-data'),
-    path('ask/', RAGView.as_view(), name='rag-ask'),
-    path('chatbot/', ChatbotView.as_view(), name='chatbot'),
+    path('chatbot/', ChatbotView.as_view(), name='chatbot'), # Gemini endpoint
+    path('ragbot/', RAGView.as_view(), name='ragbot'),    # RAG endpoint
 ]

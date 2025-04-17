@@ -78,6 +78,7 @@ venv/
 .env/
 .venv/
 ENV/
+venv_py312/
 # If your venv is outside project root but named consistently, e.g., ../venv
 # ../venv/
 
